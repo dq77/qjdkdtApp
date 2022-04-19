@@ -1,0 +1,26 @@
+/* eslint-disable */
+
+import React from 'react';
+import { Svg, Path } from 'react-native-svg';
+import { getIconColor } from './helper';
+
+export const IconApptequankapianJingyingyujingdianliang = ({ size, color, ...rest }) => {
+  return (
+    <Svg viewBox="0 0 1024 1024" width={size} height={size} {...rest}>
+      <Path
+        d="M0 0h1024v1024H0z"
+        fill={getIconColor(color, 0, '#FCF5D3')}
+      />
+      <Path
+        d="M341.333333 836.266667H204.8a17.066667 17.066667 0 0 1-17.066667-17.066667V477.866667a17.066667 17.066667 0 0 1 17.066667-17.066667h136.533333a17.066667 17.066667 0 0 1 17.066667 17.066667v341.333333a17.066667 17.066667 0 0 1-17.066667 17.066667z m-119.466666-34.133334h102.4v-307.2h-102.4zM580.266667 836.266667h-136.533334a17.066667 17.066667 0 0 1-17.066666-17.066667V341.333333a17.066667 17.066667 0 0 1 17.066666-17.066666h136.533334a17.066667 17.066667 0 0 1 17.066666 17.066666v477.866667a17.066667 17.066667 0 0 1-17.066666 17.066667z m-119.466667-34.133334h102.4v-443.733333h-102.4zM819.2 836.266667h-136.533333a17.066667 17.066667 0 0 1-17.066667-17.066667V204.8a17.066667 17.066667 0 0 1 17.066667-17.066667h136.533333a17.066667 17.066667 0 0 1 17.066667 17.066667v614.4a17.066667 17.066667 0 0 1-17.066667 17.066667z m-119.466667-34.133334h102.4v-580.266666h-102.4z"
+        fill={getIconColor(color, 1, '#D2AD00')}
+      />
+    </Svg>
+  );
+};
+
+IconApptequankapianJingyingyujingdianliang.defaultProps = {
+  size: 18,
+};
+
+export default IconApptequankapianJingyingyujingdianliang;

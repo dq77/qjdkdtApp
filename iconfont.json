@@ -1,0 +1,10 @@
+{
+  "symbol_url": "//at.alicdn.com/t/font_1490561_hgjt4rxd5a7.js",
+  "use_typescript": false,
+  "save_dir": "./src/iconfont",
+  "generate_mode": "all-in-one",
+  "trim_icon_prefix": "icon",
+  "default_icon_size": 18,
+  "summary_component_name": "Icon",
+  "remark": "使用方法：替换完symbol_rul后，执行npx iconfont-rn"
+}
